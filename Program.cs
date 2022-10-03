@@ -24,7 +24,10 @@ if (newArraySize != 0)
             k++;
         }
     }
-    Console.Write(String.Join(",", destination));
+    Console.WriteLine("Исходный массив");
+    Console.WriteLine(String.Join(", ", source));
+    Console.WriteLine("Результат");
+    Console.WriteLine(String.Join(", ", destination));
 }
 else
 {
